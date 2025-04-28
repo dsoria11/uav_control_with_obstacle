@@ -1,7 +1,7 @@
-# UAV Control using Reinforcement Learning (RL)
+# UAV Control with Obstacle using Reinforcement Learning (RL)
 
 ## Introduction
-This is a small example project that demonstrates how to use reinforcement learning (RL) to control an unmanned aerial vehicle (UAV). The UAV is controlled by adjusting its acceleration to reach a target destination while minimizing time and maintaining safe motion parameters such as speed and acceleration.
+This is a small example project that demonstrates how to use reinforcement learning (RL) to control an unmanned aerial vehicle (UAV). The UAV is controlled by adjusting its acceleration to reach a target destination while minimizing time and maintaining safe motion parameters such as speed and acceleration and is also trying to avoid a spherical obstacle. 
 
 ## Dependencies
 This project mainly bases on two library: `Stable-Baselines3` and `Gymnasium`.
@@ -23,6 +23,7 @@ For more information, please visit their respective repositories and documentati
 - `-1` if the UAV moves away from the target.
 - `-10` if acceleration exceeds the maximum limit.
 - `-10` if speed exceeds the maximum limit.
+- '-50' if collision is detected
 
 ## Virtual Environment Setup
 1. Install necessary packages:
