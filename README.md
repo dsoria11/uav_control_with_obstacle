@@ -23,7 +23,7 @@ For more information, please visit their respective repositories and documentati
 - `-1` if the UAV moves away from the target.
 - `-10` if acceleration exceeds the maximum limit.
 - `-10` if speed exceeds the maximum limit.
-- '-50' if collision is detected
+- `-50` if collision is detected
 
 ## Virtual Environment Setup
 1. Install necessary packages:
