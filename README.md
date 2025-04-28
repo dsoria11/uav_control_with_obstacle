@@ -62,7 +62,7 @@ For more information, please visit their respective repositories and documentati
 ## Example Plots
 Plot of single UAV trajectory
 
-![Example Plot](./Trajectory plot.png)
+![Example Plot](./Trajectory_Plot.png)
 
 Plot of corresponding speed, distance and reward
 
