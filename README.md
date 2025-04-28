@@ -60,7 +60,7 @@ For more information, please visit their respective repositories and documentati
    ```
 
 ## Example Plots
-Plot of single UAV trajectory with Obstacle (black sphere)
+Plot of single UAV trajectory with obstacle (black sphere)
 
 ![Example Plot](./Trajectory_Plot.png)
 
