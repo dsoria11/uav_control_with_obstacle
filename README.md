@@ -17,13 +17,13 @@ For more information, please visit their respective repositories and documentati
 - **Action**: Acceleration applied to the UAV.
 
 ### Reward Function:
-- `+100` for reaching the target.
-- `-2` time penalty for each step taken.
-- `+1` if the UAV moves closer to the target.
+- `+200` for reaching the target.
+- `-1` time penalty for each step taken.
+- `+1.5` if the UAV moves closer to the target.
 - `-1` if the UAV moves away from the target.
-- `-10` if acceleration exceeds the maximum limit.
-- `-10` if speed exceeds the maximum limit.
-- `-50` if collision is detected
+- `-20` if acceleration exceeds the maximum limit.
+- `-20` if speed exceeds the maximum limit.
+- `-15` if collision is detected
 
 ## Virtual Environment Setup
 1. Install necessary packages:
