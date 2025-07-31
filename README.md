@@ -1,4 +1,4 @@
-# UAV Control with Obstacle using Reinforcement Learning (RL)
+# UAV Control with Obstacle using Reinforcement Learning 
 
 ## Introduction
 This is a small example project that demonstrates how to use reinforcement learning (RL) to control an unmanned aerial vehicle (UAV). The UAV is controlled by adjusting its acceleration to reach a target destination while minimizing time and maintaining safe motion parameters such as speed and acceleration and is also trying to avoid a spherical obstacle. 
