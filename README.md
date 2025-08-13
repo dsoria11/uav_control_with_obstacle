@@ -49,12 +49,12 @@ For more information, please visit their respective repositories and documentati
    Training time:
     - About 30mins to finish 3000000 training steps.   
 
-3. Testing and Visualization
+2. Testing and Visualization
    ```bash
    python test.py
    ```
-4. You can find all the parameter settings in the `environment.py` file.
-5. There is total four checkpoint or trained model. In the file you can change following code in `environment.py` to test different model.
+3. You can find all the parameter settings in the `environment.py` file.
+4. There is total four checkpoint or trained model. In the file you can change following code in `environment.py` to test different model.
    ```bash
    model_file = Path("ppo_simple.zip")
    ```
